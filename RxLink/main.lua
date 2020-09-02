@@ -1,4 +1,4 @@
---[[ RxLink v1.0
+--[[ RxLink v1.1
 
 https://github.com/udyux/opentx-widget-rxlink
 Copyright 2020 | Nicolas Udy | MIT License

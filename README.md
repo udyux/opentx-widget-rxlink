@@ -19,7 +19,7 @@ While this script relies on telemetry, it may not reflect the actual link qualit
 
 ## Installation
 
-Clone or download this repository and place the folder on your radio's SD card in the `/WIDGETS/` directory.
+Clone or download this repository and place the `RxLink` folder on your radio's SD card in the `/WIDGETS/` directory.
 
 ## Usage
 
