@@ -26,3 +26,11 @@ Download the `.zip` file from the [latest release](https://github.com/udyux/open
 For the time being, this widget is intended to be used with the 8-cell layout (2 columns, 4 rows).
 
 Simply select the widget, select the colors you wish to use and you're all set!
+
+## Screenshots
+
+<p><img src="tx16s-rxlink-lq.png" /><br></p>
+<p><img src="tx16s-rxlink-db.png" /><br></p>
+<p><img src="tx16s-rxlink-norx.png" /><br></p>
+<p><img src="tx16s-rxlink-warn.png" /><br></p>
+<p><img src="tx16s-rxlink-critical.png" /><br></p>
