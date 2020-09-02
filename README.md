@@ -29,8 +29,8 @@ Simply select the widget, select the colors you wish to use and you're all set!
 
 ## Screenshots
 
-<p><img src="tx16s-rxlink-lq.png" /><br></p>
-<p><img src="tx16s-rxlink-db.png" /><br></p>
-<p><img src="tx16s-rxlink-norx.png" /><br></p>
-<p><img src="tx16s-rxlink-warn.png" /><br></p>
-<p><img src="tx16s-rxlink-critical.png" /><br></p>
+<p><img src="screenshots/tx16s-rxlink-lq.png" /><br></p>
+<p><img src="screenshots/tx16s-rxlink-db.png" /><br></p>
+<p><img src="screenshots/tx16s-rxlink-norx.png" /><br></p>
+<p><img src="screenshots/tx16s-rxlink-warn.png" /><br></p>
+<p><img src="screenshots/tx16s-rxlink-critical.png" /><br></p>
