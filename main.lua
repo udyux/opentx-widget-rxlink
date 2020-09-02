@@ -1,4 +1,4 @@
---[[ RxLink v1.1
+--[[ RxLink v1.2
 
 https://github.com/udyux/opentx-widget-rxlink
 Copyright 2020 | Nicolas Udy | MIT License
@@ -42,14 +42,18 @@ local function refresh(widget)
   local isCrossfire = widget.xflq ~= false
   local rssi, rssiWarn, rssiCrit = getRSSI()
   local label = isCrossfire and "LQ" or "RSSI"
-  local lqValue = isCrossfire and getValue(widget.xflq).."%" or rssi.."dB"
+
+  local lqValue = rssi == 0 and "--"
+    or isCrossfire and getValue(widget.xflq).."%"
+    or rssi.."dB"
+
   local statusColor = rssi == 0 and widget.options.NoRxColor
     or rssi > rssiWarn and widget.options.Color
     or rssi > rssiCrit and widget.options.WarnColor
     or widget.options.CritColor
 
   lcd.setColor(CUSTOM_COLOR, widget.options.Color)
-  lcd.drawText(widget.zone.x, widget.zone.y, label, MIDSIZE + CUSTOM_COLOR)
+  lcd.drawText(widget.zone.x, widget.zone.y + 4, label, MIDSIZE + CUSTOM_COLOR)
 
   lcd.setColor(CUSTOM_COLOR, statusColor)
   lcd.drawText(widget.zone.x + widget.zone.w, widget.zone.y, lqValue, RIGHT + DBLSIZE + CUSTOM_COLOR)
