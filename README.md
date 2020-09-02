@@ -19,7 +19,7 @@ While this script relies on telemetry, it may not reflect the actual link qualit
 
 ## Installation
 
-Download the latest `.zip` file from the [releases page](releases), extract it and place the folder in the `/WIDGETS/` directory on your transmitter's SD card.
+Download the `.zip` file from the [latest release](https://github.com/udyux/opentx-widget-rxlink/releases/latest), extract it and place the folder in the `/WIDGETS/` directory on your transmitter's SD card.
 
 ## Usage
 
